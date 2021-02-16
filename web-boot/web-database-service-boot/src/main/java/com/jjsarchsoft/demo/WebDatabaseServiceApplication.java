@@ -6,11 +6,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @Log4j2
 @SpringBootApplication
-public class WebMessageServiceApplication {
+public class WebDatabaseServiceApplication {
 
     public static void main(String[] args) {
-        log.info("Starting web message service");
-        SpringApplication.run(WebMessageServiceApplication.class, args);
+        log.info("Starting database service");
+        SpringApplication.run(WebDatabaseServiceApplication.class, args);
     }
 
 }
