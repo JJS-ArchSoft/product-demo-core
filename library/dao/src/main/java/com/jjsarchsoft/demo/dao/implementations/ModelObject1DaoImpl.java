@@ -16,7 +16,7 @@ import java.util.Comparator;
 @Component
 public class ModelObject1DaoImpl implements ModelObject1Dao {
 
-    private final Collection<ModelObject1> modelObject1Table;
+    final Collection<ModelObject1> modelObject1Table;
 
     public ModelObject1DaoImpl() {
         log.info("initializing database table ModelObject1");
