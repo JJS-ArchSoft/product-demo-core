@@ -4,22 +4,19 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <parent>
-        <artifactId>web</artifactId>
+        <artifactId>product-demo-core</artifactId>
         <groupId>com.jjsarchsoft.demo</groupId>
         <version>${revision}</version>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
 
-    <artifactId>web-database-service</artifactId>
+    <modules>
+        <module>web-database-service-boot</module>
+        <module>web-message-service-boot</module>
+    </modules>
 
-    <dependencies>
-        <dependency>
-            <groupId>com.jjsarchsoft.demo</groupId>
-            <artifactId>database-service</artifactId>
-            <version>${project.parent.version}</version>
-        </dependency>
-    </dependencies>
+    <artifactId>web-boot</artifactId>
 
 </project>

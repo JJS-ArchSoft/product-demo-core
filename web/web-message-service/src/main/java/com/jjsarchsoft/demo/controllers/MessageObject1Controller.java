@@ -22,6 +22,7 @@ public class MessageObject1Controller {
     private final MessageObject1Service service;
 
     public MessageObject1Controller(MessageObject1Service service) {
+        log.info("Instantiating message controller");
         this.service = service;
     }
 

@@ -5,6 +5,7 @@
     <modules>
         <module>library</module>
         <module>web</module>
+        <module>web-boot</module>
     </modules>
 
     <parent>
@@ -22,7 +23,7 @@
     <packaging>pom</packaging>
 
     <properties>
-        <java.version>15</java.version>
+        <java.version>1.8</java.version>
         <revision>0.0.1-SNAPSHOT</revision>
         <version.common-lang>3.11</version.common-lang>
         <version.hibernate-validator>6.0.10.Final</version.hibernate-validator>

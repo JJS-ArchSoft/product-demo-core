@@ -20,6 +20,7 @@ public class ModelObject1Controller {
     private final ModelObject1Service service;
 
     public ModelObject1Controller(ModelObject1Service service) {
+        log.info("Instantiating model controller");
         this.service = service;
     }
 
