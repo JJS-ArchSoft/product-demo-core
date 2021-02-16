@@ -1,7 +1,7 @@
 package com.jjsarchsoft.demo.controllers;
 
 import com.jjsarchsoft.demo.models.ModelObject1;
-import com.jjsarchsoft.demo.services.ModelObject1Service;
+import com.jjsarchsoft.demo.services.interfaces.ModelObject1Service;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
